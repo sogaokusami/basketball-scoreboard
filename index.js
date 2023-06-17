@@ -50,5 +50,7 @@ addScoreGuest(3);
 function newGame() {
     homeScoreBoard.textContent = 0;
     guestScoreBoard.textContent = 0;
+    homeTeamScore = 0;
+    guestTeamScore = 0;
 
 }
