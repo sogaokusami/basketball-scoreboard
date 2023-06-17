@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    background-color: #219ebc;
+
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+
+.home-board{
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.guest-board{
+    margin-top: 10px;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid;
+    display: block;
+    color:#ffb703;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+    margin-bottom: 20px;
+}
+
+.points {
+    background-color: #219ebc;
+    color:#ffb703;
+    font-family: 'Wallpoet', cursive;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+.reset {
+    align-items: center;
+    margin-top: 140px;
+    font-family: 'Orbitron', sans-serif;
+    color: #fb8500;
+    background-color: black;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
